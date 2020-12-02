@@ -197,11 +197,17 @@ h2+p{
     margin-right: 20px;
 }
 
+a{
+   color: hsl(201, 11%, 66%);
+   text-decoration: none;
+}
+
 @media all and (max-width:775px){
 
 
     body{
         background-image: url("images/bg-header-mobile.png");
+        padding: 20px;
     }
 
     .header h1{
